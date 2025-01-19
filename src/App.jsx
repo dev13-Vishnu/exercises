@@ -7,8 +7,17 @@ import Timer from "./exercises/Timer"
 import Conditional from "./exercises/Conditional"
 import RandomQuote from "./exercises/RandomQuote"
 import SearchFilter from "./exercises/SearchFilter"
+import Accordion from "./exercises/Accordion"
 
 function App() {
+
+  const items = [
+    { title: "What is React?", content: "React is a library for building UIs." },
+    { title: "Why use React?", content: "React is declarative, flexible, and efficient." },{
+      title: "How does React work?",
+      content: "React uses a virtual DOM to efficiently update the UI.",
+    },
+  ]
 
   return ( 
     <div>
@@ -21,7 +30,9 @@ function App() {
       {/* <Timer/> */}
       {/* <Conditional/> */}
       {/* <RandomQuote /> */}
-      <SearchFilter />
+      {/* <SearchFilter /> */}
+      <h1>React Accordion</h1>
+      <Accordion items={items}/>
 
     </div>
   )
