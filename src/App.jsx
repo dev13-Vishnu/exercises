@@ -6,6 +6,8 @@ import FetchData from "./exercises/FetchData"
 import Timer from "./exercises/Timer"
 import Conditional from "./exercises/Conditional"
 import RandomQuote from "./exercises/RandomQuote"
+import SearchFilter from "./exercises/SearchFilter"
+
 function App() {
 
   return ( 
@@ -19,6 +21,7 @@ function App() {
       {/* <Timer/> */}
       {/* <Conditional/> */}
       {/* <RandomQuote /> */}
+      <SearchFilter />
 
     </div>
   )
