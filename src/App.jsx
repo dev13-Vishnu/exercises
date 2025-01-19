@@ -2,6 +2,7 @@ import Counter from "./exercises/Counter"
 import Toggle from "./exercises/Toggle"
 import FormValidation from "./exercises/FormValidation"
 import ToDoList from "./exercises/ToDoLIst"
+import FetchData from "./exercises/FetchData"
 
 function App() {
 
@@ -11,7 +12,8 @@ function App() {
       {/* <Counter/> */}
       {/* <Toggle /> */}
       {/* <FormValidation/> */}
-      <ToDoList/>
+      {/* <ToDoList/> */}
+      {/* <FetchData /> */}
 
     </div>
   )
