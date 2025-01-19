@@ -4,6 +4,7 @@ import FormValidation from "./exercises/FormValidation"
 import ToDoList from "./exercises/ToDoLIst"
 import FetchData from "./exercises/FetchData"
 import Timer from "./exercises/Timer"
+import Conditional from "./exercises/Conditional"
 
 function App() {
 
@@ -15,7 +16,8 @@ function App() {
       {/* <FormValidation/> */}
       {/* <ToDoList/> */}
       {/* <FetchData /> */}
-      <Timer/>
+      {/* <Timer/> */}
+      <Conditional/>
 
     </div>
   )
