@@ -5,7 +5,7 @@ import ToDoList from "./exercises/ToDoLIst"
 import FetchData from "./exercises/FetchData"
 import Timer from "./exercises/Timer"
 import Conditional from "./exercises/Conditional"
-
+import RandomQuote from "./exercises/RandomQuote"
 function App() {
 
   return ( 
@@ -17,7 +17,8 @@ function App() {
       {/* <ToDoList/> */}
       {/* <FetchData /> */}
       {/* <Timer/> */}
-      <Conditional/>
+      {/* <Conditional/> */}
+      {/* <RandomQuote /> */}
 
     </div>
   )
