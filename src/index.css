@@ -1,0 +1,14 @@
+.counter  {
+    text-align: center;
+    /* font-family: Arial, sans-serif; */
+}
+.counter p {
+    font-size: 20rem;
+    margin: 1rem 0;
+}
+.counter button {
+    font-size: 1.5rem;
+    margin: 0 0.5rem;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+}
