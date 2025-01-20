@@ -8,7 +8,9 @@ import Conditional from "./exercises/Conditional"
 import RandomQuote from "./exercises/RandomQuote"
 import SearchFilter from "./exercises/SearchFilter"
 import Accordion from "./exercises/Accordion"
-import ThemeToggle from "./exercises/Theme"
+import ThemeToggle from "./exercises/ThemeToggle"
+
+
 function App() {
 
   // const items = [
