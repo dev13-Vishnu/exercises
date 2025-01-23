@@ -1,8 +1,8 @@
-.counter  {
-    /* text-align: center; */
-    /* font-family: Arial, sans-serif; */
+/* .counter  {
+    text-align: center;
+    font-family: Arial, sans-serif;
 }
-/* .counter p {
+.counter p {
     font-size: 20rem;
     margin: 1rem 0;
 }
@@ -12,10 +12,12 @@
     padding: 0.5rem 1rem;
     cursor: pointer;
 } */
- /* light / dark theme styling */
- /* App.css */
 
-/* Common Styles */
+
+ /* light / dark theme styling
+ App.css
+
+Common Styles
 body, html {
     margin: 0;
     padding: 0;
@@ -43,7 +45,6 @@ body, html {
     text-align: center;
   }
   
-  /* Light Theme */
   .light-theme {
     background-color: #f9f9f9;
     color: #333;
@@ -54,7 +55,6 @@ body, html {
     color: #f9f9f9;
   }
   
-  /* Dark Theme */
   .dark-theme {
     background-color: #333;
     color: #f9f9f9;
@@ -64,4 +64,25 @@ body, html {
     background-color: #f9f9f9;
     color: #333;
   }
-  
+   */
+.carousel {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin:20px;
+}
+.carousel-image {
+    width: 800px;
+    height: 400px;
+    object-fit: cover;
+    margin-bottom: 10px;
+    border: 2px solid #ddd;
+    border-radius: 5px;
+}
+button {
+    margin: 5px;
+    padding : 10px 20px;
+    font-size: 16px;
+    cursor: white;
+}

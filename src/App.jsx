@@ -9,7 +9,11 @@ import RandomQuote from "./exercises/RandomQuote"
 import SearchFilter from "./exercises/SearchFilter"
 import Accordion from "./exercises/Accordion"
 import ThemeToggle from "./exercises/ThemeToggle"
-
+import Carousel from "./exercises/Carousel"
+import image1 from "./assets/image1.jpg"
+import image2 from "./assets/image2.jpg"
+import  image3 from   "./assets/image3.jpg"
+import Sum from "./exercises/Sum";
 
 function App() {
 
@@ -19,6 +23,11 @@ function App() {
   //     title: "How does React work?",
   //     content: "React uses a virtual DOM to efficiently update the UI.",
   //   },
+  // // ]
+  // const images = [image1
+  //   ,image2
+  //   ,image3
+  
   // ]
 
   return ( 
@@ -35,7 +44,9 @@ function App() {
       {/* <SearchFilter /> */}
       {/* <h1>React Accordion</h1>
       <Accordion items={items}/> */}
-      <ThemeToggle/>
+      {/* <ThemeToggle/> */}
+      {/* <Carousel images= {images}/> */}
+      <Sum/>
 
     </div>
   )
